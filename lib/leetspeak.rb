@@ -1,9 +1,9 @@
-class String
+class Leetspeak
   def initialize(str)
     @str = str
   end
 
-  def leetspeak
+  def leetspeaker
     array = @str.split(" ")
     (0..array.length-1).each do |j|
       word = array[j]
