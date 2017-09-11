@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
-gem 'respec'
-gem 'pry'
+
+gem ('sinatra')
+gem ('sinatra-contrib')
+gem ('rspec')
+gem ('pry')

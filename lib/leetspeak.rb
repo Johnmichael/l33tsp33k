@@ -1,7 +1,10 @@
 class String
+  def initialize(str)
+    @str = str
+  end
+
   def leetspeak
-    str = self
-    array = str.split(" ")
+    array = @str.split(" ")
     (0..array.length-1).each do |j|
       word = array[j]
       for i in 0..word.length-1 do
